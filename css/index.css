@@ -1,34 +1,68 @@
-html,body{background-color:#f2f2f2;font:15px Verdana;}
-*{margin:0px;}
-
-
-#resbox{
-    width:65%;background-color:#ffffff;
-    margin:auto;margin-top:5%;margin-bottom:3%;
-    padding:2% 4% 4% 6%;
-}
-#contact{
-    display:flex;justify-content:center;align-items:center;
-    flex-direction:column;margin-top:1%;
-    border:dotted none;
-}
-#mail{
-    font-size:14px;
+html,
+body {
+    background-color: #f2f2f2;
+    font: 15px Verdana;
 }
 
-.margin0{
-  margin-top:0px;  
+* {
+    margin: 0px;
 }
-.caps{
-    margin-top:3%;border-bottom-style: double;
+
+
+#resbox {
+    width: 65%;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    padding: 2% 4% 4% 6%;
 }
-.date{
-    display:flex;justify-content:space-between;
-    border:dotted none;
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1%;
 }
-.place{
-    font-weight:bold;
+
+#mail {
+    font-size: 14px;
 }
-h4,p, ul{
-    margin-top:1%;
+
+#summary {
+    text-align: justify;
+}
+
+.margin0 {
+    margin-top: 0px;
+}
+
+.caps {
+    margin-top: 3%;
+    border-bottom-style: double;
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.place {
+    font-weight: bold;
+}
+
+h4,
+p,
+ul {
+    margin-top: 1%;
+}
+
+@media only screen and (max-width:960px) {
+
+    #resbox {
+        width: 80%;
+
+    }
+
 }
